@@ -19,6 +19,7 @@ func main() {
 	// config.AllowHeaders = []string{"Origin", "Content-Length", "Content-Type", "Token"}
 
 	// router.Use(cors.New(config))
+	// router.Use(cors.New(config))
 
 	router.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
