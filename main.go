@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gin-contrib/cors"
+	// "github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -12,7 +12,7 @@ func main() {
 
 	router.Use(gin.Logger(), gin.Recovery())
 
-	router.Use(cors.Default())
+	// router.Use(cors.Default())
 
 	// config := cors.DefaultConfig()
 	// config.AllowWildcard = true
