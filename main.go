@@ -29,5 +29,5 @@ func main() {
 		})
 	})
 
-	router.Run("localhost:80")
+	router.Run(":8080")
 }
